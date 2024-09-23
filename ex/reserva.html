@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reserva</title>
+    </head>
+    <body>
+<section>
+    <h2>Reservas de Viagem</h2>
+    <form method="GET" action="">
+        <fieldset>
+            <legend>Contato</legend>
+                <label>Nome</label><br>
+                <input type="text" required name="nome"><br>
+
+                <label>E-mail</label><br>
+                <input type="email" required name="email"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Reserva</legend>
+                <label>Serviços Desejados</label><br>
+                <br><input type="checkbox" name="passagem" value="Compra de passagens">Compra de passagens
+                <br><input type="checkbox" name="hospedagem" value="Reserva de hospedagem">Reserva de hospedagem
+                <br><input type="checkbox" name="veiculos" value="Reserva de veículos">Reserva de veículos
+        </fieldset>
+        <fieldset>
+            <legend>Forma de Pagamento</legend>
+                <label>
+                    <br><input type="radio" name="forma de pagamento" value="PIX">PIX
+                    <br><input type="radio" name="forma de pagamento" value="Boleto">Boleto
+                    <br><input type="radio" name="forma de pagamento" value="Cartão de crédito">Cartão de crédito
+                </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Prazo de Pagamento</legend>
+                <select name="prazoPagamento">
+                    <option value="aVista">À vista</option>
+                    <option value="5x">5x sem juros</option>
+                    <option value="10x">10x com juros</option>
+                </select>
+        </fieldset>
+
+        <br><label>Gostaria de fazer alguma solicitação adicional?</label><br>
+        <textarea rows="5" name="solicitacao"></textarea><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+    </body>
+</html>

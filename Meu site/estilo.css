@@ -1,0 +1,35 @@
+
+
+body {
+    background-color: black;
+}
+
+.texto {
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+}
+
+.menu_button {
+    background-color: rgb(0, 162, 255);
+
+}
+
+.search_button {
+    background-color: rgb(0, 162, 255);
+
+}
+
+.logo {
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
